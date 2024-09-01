@@ -2,7 +2,7 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import Layout from './LayOut/Layout'
 import ContactUs from './Pages/ContactUs/ContactUs'
-import AboutUs from './Pages/AboutUs/Aboutus'
+import AboutUs from './Pages/AboutUs/AboutUs'
 import OurCars from './Pages/OurCars/OurCars'
 import CarDetails from './Pages/CarDetails/CarDetails'
 
