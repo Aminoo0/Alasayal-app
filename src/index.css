@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Contrail+One&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+    direction: rtl;
+    font-family: "Contrail One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.active{
+    border-bottom: 3px #ef443b solid;
+    border-radius: 10px;
+    transition: all 1s;
+}
