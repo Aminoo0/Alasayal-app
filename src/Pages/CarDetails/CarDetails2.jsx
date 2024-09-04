@@ -14,14 +14,14 @@ import 'swiper/css/pagination';
 import 'swiper/css/zoom';
 
 
-export default function CarDetails() {
+export default function CarDetails2() {
 
     const [secPageForm, setSecPageForm] = useState(false)
     let params = useParams()
     console.log(params);
     console.log(dataCars);
     const [state, handleSubmit] = useForm("xnnarjoq");
-    
+
     return (
         <section className='py-1 pb-52 bg-[url(https://alasayeltours.com/wp-content/uploads/2023/11/Untitled-design-57.jpg)]'>
             <div className='w-full mb-12 relative overflow-hidden'>
@@ -46,37 +46,37 @@ export default function CarDetails() {
                         className="mySwiper">
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgOne} />
+                                <img src={dataCars[1].sliderimg.imgOne} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgTwo} />
+                                <img src={dataCars[1].sliderimg.imgTwo} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgThree} />
+                                <img src={dataCars[1].sliderimg.imgThree} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgFour} />
+                                <img src={dataCars[1].sliderimg.imgFour} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgFive} />
+                                <img src={dataCars[1].sliderimg.imgFive} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgSix} />
+                                <img src={dataCars[1].sliderimg.imgSix} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgSeven} />
+                                <img src={dataCars[0].sliderimg.imgSeven} />
                             </div>
                         </SwiperSlide>
                     </Swiper>
@@ -172,7 +172,7 @@ export default function CarDetails() {
             <div className='flex flex-wrap justify-center items-center w-10/12 mx-auto'>
                 <div className='w-10/12 mx-auto lg:w-1/3'>
                     <h3 className='text-3xl py-3 border-t-2 border-[#e64c43] rounded-md w-10'>فيديو</h3>
-                    <video className="wp-video-shortcode rounded-lg" id="video-25312-2" width={640} height={360} preload="metadata" controls="controls"><source type="video/mp4" src={dataCars[params.undefined].video} /></video>
+                    <video className="wp-video-shortcode rounded-lg" id="video-25312-2" width={640} height={360} preload="metadata" controls="controls"><source type="video/mp4" src={dataCars[1].video} /></video>
                 </div>
                 <div className='w-10/12 mx-auto lg:w-1/3 mt-5 lg:mt-0'>
                     <ul className='border p-3 text-2xl flex flex-col gap-y-5 bg-white rounded-lg'>
