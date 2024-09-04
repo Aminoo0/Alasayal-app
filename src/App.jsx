@@ -1,4 +1,4 @@
-import { createBrowserRouter, RouterProvider } from 'react-router-dom'
+import { createBrowserRouter, createHashRouter, RouterProvider } from 'react-router-dom'
 import Home from './Pages/Home/Home'
 import Layout from './LayOut/Layout'
 import ContactUs from './Pages/ContactUs/ContactUs'
@@ -10,7 +10,7 @@ import { dataCars } from './Components/OurCarsDetails/OurCarsDetails'
 
 let App = () => {
 
-  let router = createBrowserRouter([
+  let router = createHashRouter([
     {
       path: '', element: <Layout />, children: [
         { index: true, element: <Home /> },
