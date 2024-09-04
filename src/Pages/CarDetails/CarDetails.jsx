@@ -85,14 +85,14 @@ export default function CarDetails() {
                     <form onSubmit={handleSubmit} className="w-10/12 lg:w-4/5 mx-auto border rounded-lg h-full p-3 bg-white">
                         <h2 className='mb-5 text-2xl font-bold'>حجز هذه السيارة</h2>
                         <div className={`${secPageForm ? 'hidden' : ''}`}>
-                            {/* <div className="mb-10">
+                            <div className="mb-10">
                                 <input value={params.content} type="text" id="carNames" name='carName' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder="نوع السيارة" />
                                 <ValidationError
                                     prefix="carNames"
                                     field="carName"
                                     errors={state.errors}
                                 />
-                            </div> */}
+                            </div>
                             <div className="mb-10">
                                 <input type="text" id="inputOne" name='locationOne' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder="موقع الاستلام" />
                                 <ValidationError
