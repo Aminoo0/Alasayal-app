@@ -8,7 +8,6 @@ import wadding from '../../assets/hall.png'
 import stage from '../../assets/stage.png'
 import player from '../../assets/soccer-player.png'
 import makka from '../../assets/hajj.png'
-import bg from '../../assets/main-bg-2.jpg'
 
 export default function OurServise() {
     return (

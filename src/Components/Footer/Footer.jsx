@@ -1,5 +1,6 @@
 import React from 'react'
 import ContactUsCaption from '../ContactUsCaption/ContactUsCaption'
+import footerLogo from '../../assets/main-logo.png'
 
 export default function Footer() {
   return (<>
@@ -9,7 +10,7 @@ export default function Footer() {
         <div className='w-full lg:w-1/4'>
           <div className='w-4/5 mx-auto lg:w-full'>
             <a href="https://alasayeltours.com/">
-              <img loading="lazy" src="https://alasayeltours.com/wp-content/uploads/2023/12/لوقو_الأصايل-2.png" className="attachment-full w-full size-full wp-image-25148" srcSet="" /></a>
+              <img loading="lazy" src={footerLogo} className="attachment-full w-full size-full wp-image-25148" srcSet="" /></a>
           </div>
           <p className='text-white my-8'>شركة الأصايل (إعتمار) للنقل وهي شركة متخصصة في مجال خدمات تأجير الحافلات VIP محليا ودوليا.
 

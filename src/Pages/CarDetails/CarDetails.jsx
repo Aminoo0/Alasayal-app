@@ -5,6 +5,8 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import { dataCars } from '../../Components/OurCarsDetails/OurCarsDetails';
 import { Autoplay, EffectFade, Navigation, Pagination, Zoom } from 'swiper/modules';
 import { useForm, ValidationError } from '@formspree/react';
+import ourCarsHeader from '../../assets/our-cars-header.jpg'
+
 
 
 import 'swiper/css';
@@ -21,14 +23,14 @@ export default function CarDetails() {
     console.log(params);
     console.log(dataCars);
     const [state, handleSubmit] = useForm("xnnarjoq");
-    
+
     return (
-        <section className='py-1 pb-52 bg-[url(https://alasayeltours.com/wp-content/uploads/2023/11/Untitled-design-57.jpg)]'>
+        <section className={`py-1 pb-52 bg-[url(assets/main-bg.jpg)]`}>
             <div className='w-full mb-12 relative overflow-hidden'>
                 <div className='w-full bg-slate-700 bg-opacity-50 absolute top-0 left-0 right-0 bottom-0'>
                     <motion.h2 initial={{ opacity: 0, x: -150 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='text-white text-3xl absolute top-1/2 -translate-y-1/2 left-3'>{params.content}</motion.h2>
                 </div>
-                <img className='h-[400px] object-cover w-full' src="https://alasayeltours.com/wp-content/uploads/2024/01/Untitled-design-54.jpg" alt="" />
+                <img className='h-[400px] object-cover w-full' src={ourCarsHeader} alt="" />
             </div>
             <div className='flex flex-wrap justify-center gap-5 mb-16 w-full lg:w-11/12 mx-auto border-b pb-10'>
                 <div className='w-10/12 lg:w-1/3 h-full'>
@@ -46,37 +48,37 @@ export default function CarDetails() {
                         className="mySwiper">
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgOne} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgOne} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgTwo} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgTwo} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgThree} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgThree} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgFour} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgFour} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgFive} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgFive} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgSix} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgSix} />
                             </div>
                         </SwiperSlide>
                         <SwiperSlide>
                             <div className="swiper-zoom-container">
-                                <img src={dataCars[params.undefined].sliderimg.imgSeven} />
+                                <img className='object-fill' src={dataCars[params.undefined].sliderimg.imgSeven} />
                             </div>
                         </SwiperSlide>
                     </Swiper>
@@ -109,7 +111,8 @@ export default function CarDetails() {
                                     errors={state.errors}
                                 />
                             </div>
-                            <div className="mb-10">
+                            <div className="mb-10 flex flex-col items-center">
+                                <label className='text-xl' htmlFor="inputThree">من</label>
                                 <input type="date" id="inputThree" name='dateOne' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder='معاد الاستلام' />
                                 <ValidationError
                                     prefix="inputThree"
@@ -117,7 +120,8 @@ export default function CarDetails() {
                                     errors={state.errors}
                                 />
                             </div>
-                            <div className="mb-10">
+                            <div className="mb-10 flex flex-col items-center">
+                                <label className='text-xl' htmlFor="inputFour">الي</label>
                                 <input type="date" id="inputFour" name='dateTwo' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder='معاد التسليم' />
                                 <ValidationError
                                     prefix="inputFour"

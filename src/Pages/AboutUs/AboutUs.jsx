@@ -1,5 +1,8 @@
 import { motion } from 'framer-motion'
 import React from 'react'
+import ourCarsHeader from '../../assets/our-cars-header.jpg'
+import aboutUs1 from '../../assets/about-us-1.jpg'
+import aboutUs2 from '../../assets/about-us-2.jpg'
 
 export default function AboutUs() {
   return (
@@ -8,12 +11,12 @@ export default function AboutUs() {
         <div className='w-full bg-slate-700 bg-opacity-50 absolute top-0 left-0 right-0 bottom-0'>
           <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='text-white text-5xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'>من نحن</motion.h2>
         </div>
-        <img className='h-[400px] object-cover w-full' src="https://alasayeltours.com/wp-content/uploads/2024/01/Untitled-design-54.jpg" alt="" />
+        <img className='h-[400px] object-cover w-full' src={ourCarsHeader} alt="" />
       </div>
       <div className='py-10 bg-[url(https://alasayeltours.com/wp-content/uploads/2023/11/Untitled-design-57.jpg)]'>
         <div className='flex flex-wrap w-3/4 mx-auto'>
           <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='w-full lg:w-1/2 rounded-3xl'>
-            <img className='w-3/4 rounded-3xl mx-auto' src="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-13.jpg" alt="" />
+            <img className='w-3/4 rounded-3xl mx-auto' src={aboutUs1} alt="" />
           </motion.div>
           <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='w-full lg:w-1/2'>
             <h2 className='my-5 text-2xl font-bold'>من نحن</h2>
@@ -24,7 +27,7 @@ export default function AboutUs() {
         </div>
         <div className='flex flex-wrap mx-auto w-11/12 mt-32'>
           <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='w-full lg:w-1/2  rounded-3xl lg:order-1'>
-            <img className='w-3/4 mx-auto lg:w-full rounded-3xl' src="https://alasayeltours.com/wp-content/uploads/elementor/thumbs/Untitled-design-60-qjfdq0vqkylmj1bnf32es872cen0ymtaiwffnaeo1s.jpg" alt="" />
+            <img className='w-3/4 mx-auto lg:w-full rounded-3xl' src={aboutUs2} alt="" />
           </motion.div>
           <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='w-full lg:w-1/2 '>
             <div className='mx-auto'>

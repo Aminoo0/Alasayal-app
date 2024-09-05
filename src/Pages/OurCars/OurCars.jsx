@@ -2,6 +2,7 @@ import { motion } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { dataCars } from '../../Components/OurCarsDetails/OurCarsDetails'
+import ourCarsHeader from '../../assets/our-cars-header.jpg'
 
 export default function OurCars() {
 
@@ -31,7 +32,7 @@ export default function OurCars() {
                 <div className='w-full bg-slate-700 bg-opacity-50 absolute top-0 left-0 right-0 bottom-0'>
                     <motion.h2 initial={{ opacity: 0 }} whileInView={{ opacity: 1 }} transition={{ duration: 1 }} className='text-white text-5xl absolute top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2'>سياراتنا</motion.h2>
                 </div>
-                <img className='h-[400px] object-cover w-full' src="https://alasayeltours.com/wp-content/uploads/2024/01/Untitled-design-54.jpg" alt="" />
+                <img className='h-[400px] object-cover w-full' src={ourCarsHeader} alt="" />
             </div>
             <motion.div initial={{ opacity: .5, y: 150 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className="relative w-3/4 md:w-1/4 mx-auto my-5">
                 <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
