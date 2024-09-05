@@ -63,7 +63,7 @@ export default function Navbar() {
                                     <i onClick={() => setIsOpen(false)} className="fa-solid fa-x text-[#ee4023] text-3xl cursor-pointer hover:scale-125 duration-300"></i>
                                 </li>
                                 <li onClick={() => setIsOpen(!isOpen)} className='border-b-2 p-4 pr-56'>
-                                    <NavLink to={''} className="block w-full py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">الصفحه الرئيسية</NavLink>
+                                    <NavLink to={''} className="block w-32 py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">الصفحه الرئيسية</NavLink>
                                 </li>
                                 <li onClick={() => setIsOpen(!isOpen)} className='border-b-2 p-4 pr-56'>
                                     <NavLink to={'/ourcars'} className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">سياراتنا</NavLink>
