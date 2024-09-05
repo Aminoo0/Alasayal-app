@@ -1,13 +1,16 @@
 import { motion } from 'framer-motion'
 import React from 'react'
 import { Link } from 'react-router-dom'
+import AlAsaylFrontBus from '../../assets/Al-Asayl-front-bus.png'
+import ourVision from '../../assets/our-vision.png'
+import ourMission from '../../assets/our-mission.png'
 
 export default function AboutUsCaption() {
     return (
-        <section className='bg-[url(https://alasayeltours.com/wp-content/uploads/2023/11/Untitled-design-57.jpg)]'>
+        <section className={`bg-[url(assets/main-bg.jpg)]`}>
             <div className='flex flex-wrap items-center w-3/4 mx-auto'>
                 <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='w-full lg:w-2/5 flex justify-center lg:justify-start items-center mt-10'>
-                    <img className='w-3/4' src='https://alasayeltours.com/wp-content/uploads/2024/01/Al-Asayl-front-bus.png' alt="" />
+                    <img className='w-3/4' src={AlAsaylFrontBus} alt="" />
                 </motion.div>
                 <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }} className='w-full lg:w-3/5 mt-10'>
                     <h3 className='text-3xl font-bold'>تأسيس الشركة</h3>
@@ -20,7 +23,7 @@ export default function AboutUsCaption() {
             <div className='flex flex-wrap w-3/4 mx-auto'>
                 <div className='w-full md:w-2/4 mx-auto'>
                     <motion.div initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className='mt-10'>
-                        <img decoding="async" src="https://alasayeltours.com/wp-content/uploads/elementor/thumbs/Untitled-design-32-qjfdq0vhotfnrlre70qvcun0rtw4qtcjksxor1wxto.png" title="Untitled design (32)" alt="Untitled design (32)" loading="lazy" />
+                        <img decoding="async" src={ourVision} title="Untitled design (32)" alt="Untitled design (32)" loading="lazy" />
                     </motion.div>
                     <motion.div initial={{ opacity: 0, x: 100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }}>
                         <h3 className='text-3xl my-5'>رؤيتنا</h3>
@@ -37,7 +40,7 @@ export default function AboutUsCaption() {
                 </div>
                 <div className='w-full md:w-2/4 mx-auto'>
                     <motion.div initial={{ opacity: 0, y: -100 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 1 }} className='mt-10'>
-                        <img decoding="async" src="https://alasayeltours.com/wp-content/uploads/elementor/thumbs/Untitled-design-33-qjfdq0vhotfnrlre70qvcun0rtw4qtcjksxor1wxto.png" title="Untitled design (33)" alt="Untitled design (33)" loading="lazy" />
+                        <img decoding="async" src={ourMission} title="Untitled design (33)" alt="Untitled design (33)" loading="lazy" />
                     </motion.div>
                     <motion.div initial={{ opacity: 0, x: -100 }} whileInView={{ opacity: 1, x: 0 }} transition={{ duration: 1 }}>
                         <h3 className='text-3xl my-5'>رسالتنا</h3>

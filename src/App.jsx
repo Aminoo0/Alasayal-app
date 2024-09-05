@@ -10,7 +10,7 @@ import { dataCars } from './Components/OurCarsDetails/OurCarsDetails'
 
 let App = () => {
 
-  let router = createHashRouter([
+  let router = createBrowserRouter([
     {
       path: '', element: <Layout />, children: [
         { index: true, element: <Home /> },

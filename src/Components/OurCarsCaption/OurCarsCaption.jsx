@@ -1,33 +1,37 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
+import car1 from '../../assets/car-one.png'
+import car2 from '../../assets/car-two.png'
+import car3 from '../../assets/car-three.png'
+import car4 from '../../assets/car-four.png'
 
 export default function OurCarsCaption() {
     return (
-        <section className='py-10 bg-[url(https://alasayeltours.com/wp-content/uploads/2023/11/Untitled-design-57.jpg)]'>
+        <section className={`py-10 bg-[url(assets/main-bg.jpg)]`}>
             <h1 className='text-center text-3xl font-semibold'>سياراتنا</h1>
             <div className='flex gap-y-10 flex-wrap w-4/5 mx-auto'>
                 <div className='flex flex-wrap justify-center w-full md:w-1/2 lg:w-1/4 p-3 '>
                     <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                        <figure className="text-[#6b6b6b]"><img loading="lazy" decoding="async" src="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-21.png" className=" size-full w-full lg:w-32" alt srcSet="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-21.png" /></figure>
+                        <figure className="text-[#6b6b6b]"><img loading="lazy" decoding="async" src={car1} className=" size-full w-full lg:w-32" alt srcSet={car1} /></figure>
                         <h3>السيارات الصغيرة</h3>
                     </div>
                 </div>
                 <div className='flex flex-wrap justify-center w-full md:w-1/2 lg:w-1/4 p-3 '>
                     <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300 px-3'>
-                        <figure className=""><img decoding="async" src="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-19.png" className=" size-full w-full lg:w-32" alt srcSet="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-19.png" />
+                        <figure className=""><img decoding="async" src={car2} className=" size-full w-full lg:w-32" alt srcSet={car2} />
                         </figure>
                         <h3>حافلات صغيرة</h3>
                     </div>
                 </div>
                 <div className='flex flex-wrap justify-center w-full md:w-1/2 lg:w-1/4 p-3 '>
                     <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300 px-3'>
-                        <figure className=""><img loading="lazy" decoding="async" src="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-22.png" className=" size-full w-full lg:w-32" alt srcSet="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-22.png" /></figure>
+                        <figure className=""><img loading="lazy" decoding="async" src={car3} className=" size-full w-full lg:w-32" alt srcSet={car3} /></figure>
                         <h3>حافلات كوستر</h3>
                     </div>
                 </div>
                 <div className='flex flex-wrap justify-center w-full md:w-1/2 lg:w-1/4 p-3 '>
                     <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300 px-3'>
-                        <figure className=""><img loading="lazy" decoding="async" src="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-17.png" className=" size-full w-full lg:w-32" alt srcSet="https://alasayeltours.com/wp-content/uploads/2023/12/Untitled-design-17.png" /></figure>
+                        <figure className=""><img loading="lazy" decoding="async" src={car4} className=" size-full w-full lg:w-32" alt srcSet={car4} /></figure>
                         <h3>حافلات كبيرة</h3>
                     </div>
                 </div>

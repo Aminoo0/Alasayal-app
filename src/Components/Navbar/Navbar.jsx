@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from 'framer-motion'
 import React, { useState } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import navLogo from '../../assets/main-logo.png'
 
 export default function Navbar() {
 
@@ -29,7 +30,7 @@ export default function Navbar() {
             <nav className="bg-white">
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-end gap-10 lg:gap-0 lg:justify-between mx-auto p-2">
                     <Link to={'/'} className="flex items-center space-x-3 rtl:space-x-reverse">
-                        <img src="https://alasayeltours.com/wp-content/uploads/2023/12/%D9%84%D9%88%D9%82%D9%88_%D8%A7%D9%84%D8%A3%D8%B5%D8%A7%D9%8A%D9%84-2.png" className="w-52" alt="Al-Asayle Logo" />
+                        <img src={navLogo} className="w-52" alt="Al-Asayle Logo" />
                     </Link>
                     <div className="flex gap-5 items-center md:order-2">
                         <button className='hidden md:block p-3 px-7 font-bold bg-[#e64c43] rounded-lg text-white order-1'>Engilsh</button>

@@ -288,7 +288,7 @@ export let dataCars = [
         video: 'https://alasayeltours.com/wp-content/uploads/2020/02/Untitled-design-5.mp4'
     },
     {
-        id: 26, mainImage: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-1-335x186.jpg', content: 'Hyundai Staria 8 passenger 2024-car', title: 'Contact for a price', sliderimg: [{
+        id: 26, mainImage: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-1-335x186.jpg', content: 'Hyundai Staria 8 passenger 2024-car', title: 'Contact for a price', sliderimg: {
             imgOne: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-interior-dashboard-630d7a4e7a703-600x327.webp',
             imgTwo: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-4-600x450.jpg',
             imgThree: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-3-600x450.jpg',
@@ -297,7 +297,7 @@ export let dataCars = [
             imgSix: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-1-1024x768.jpg ',
             imgSeven: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-h1-1-1024x768.jpg',
             imgEight: 'https://alasayeltours.com/wp-content/uploads/2020/02/hyundai-staria-63d1fe79af681-600x327.webp',
-        }],
+        },
         video: 'https://alasayeltours.com/wp-content/uploads/2020/02/Untitled-design-6.mp4'
     },
 ]
