@@ -33,7 +33,7 @@ export default function Navbar() {
                         <img src={navLogo} className="w-52" alt="Al-Asayle Logo" />
                     </Link>
                     <div className="flex gap-5 items-center md:order-2">
-                        <button className='hidden md:block p-3 px-7 font-bold bg-[#e64c43] rounded-lg text-white order-1'>Engilsh</button>
+                        {/* <button className='hidden md:block p-3 px-7 font-bold bg-[#e64c43] rounded-lg text-white order-1'>Engilsh</button> */}
                         <button onClick={() => setIsOpen(!isOpen)} type="button" className="lg:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
                             <span className="sr-only">Open main menu</span>
                             <i className="fa-solid fa-bars text-2xl text-[#e64c43]"></i>

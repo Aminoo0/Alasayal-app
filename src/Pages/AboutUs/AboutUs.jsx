@@ -1,10 +1,18 @@
 import { motion } from 'framer-motion'
-import React from 'react'
+import React, { useEffect } from 'react'
 import ourCarsHeader from '../../assets/our-cars-header.jpg'
 import aboutUs1 from '../../assets/about-us-1.jpg'
 import aboutUs2 from '../../assets/about-us-2.jpg'
+import { useLocation } from 'react-router-dom'
 
 export default function AboutUs() {
+
+  let { pathname } = useLocation()
+
+  useEffect(() => {
+    window.scroll(0, 0)
+  }, [pathname])
+
   return (
     <section className='pb-32 overflow-hidden'>
       <div className='w-full relative'>

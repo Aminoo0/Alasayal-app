@@ -1,6 +1,7 @@
 import React from 'react'
 import ContactUsCaption from '../ContactUsCaption/ContactUsCaption'
 import footerLogo from '../../assets/main-logo.png'
+import { Link } from 'react-router-dom'
 
 export default function Footer() {
   return (<>
@@ -10,7 +11,7 @@ export default function Footer() {
         <div className='w-full lg:w-1/4'>
           <div className='w-4/5 mx-auto lg:w-full'>
             <a href="https://alasayeltours.com/">
-              <img loading="lazy" src={footerLogo} className="attachment-full w-full size-full wp-image-25148" srcSet="" /></a>
+              <img loading="lazy" src={footerLogo} className="attachment-full w-full size-full wp-image-25148" srcSet={footerLogo} /></a>
           </div>
           <p className='text-white my-8'>شركة الأصايل (إعتمار) للنقل وهي شركة متخصصة في مجال خدمات تأجير الحافلات VIP محليا ودوليا.
 
@@ -20,10 +21,10 @@ export default function Footer() {
           <ul className='flex flex-col gap-y-5'>
             <li className='text-[#e64a41]'>روابط مهمه</li>
             <ul className='text-white mr-5 flex flex-col gap-y-3'>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> الرئيسية</li>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> سياراتنا</li>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> من نحن</li>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> تواصل معنا</li>
+              <Link to={'/'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> الرئيسية</li></Link>
+              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> سياراتنا</li></Link>
+              <Link to={'/aboutus'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> من نحن</li></Link>
+              <Link to={'/contactus'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i> تواصل معنا</li></Link>
             </ul>
           </ul>
         </div>
@@ -31,10 +32,10 @@ export default function Footer() {
           <ul className='flex flex-col gap-y-5'>
             <li className='text-[#e64a41]'>حافلات كبيرة</li>
             <ul className='text-white mr-5 flex flex-col gap-y-3'>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>السيارات الصغيرة</li>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات صغيرة</li>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كوستر</li>
-              <li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كبيرة</li>
+              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>السيارات الصغيرة</li></Link>
+              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات صغيرة</li></Link>
+              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كوستر</li></Link>
+              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كبيرة</li></Link>
             </ul>
           </ul>
         </div>
@@ -54,7 +55,7 @@ export default function Footer() {
             </ul>
           </ul>
         </div>
-        <p className='lg:hidden text-center w-full text-[#e64a41] cursor-pointer my-10 text-2xl hover:text-[#842722] duration-300'>Engilsh</p>
+        {/* <p className='lg:hidden text-center w-full text-[#e64a41] cursor-pointer my-10 text-2xl hover:text-[#842722] duration-300'>Engilsh</p> */}
       </div>
       <p className='text-center mt-8 text-white'>Copyright © 2023 . All Rights Reserved To <span className='text-[#e64a41] cursor-pointer'>Alasayel</span></p>
     </footer>

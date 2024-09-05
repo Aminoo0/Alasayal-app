@@ -1,12 +1,12 @@
 import { motion } from 'framer-motion'
 import React, { useEffect, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useLocation } from 'react-router-dom'
 import { dataCars } from '../../Components/OurCarsDetails/OurCarsDetails'
 import ourCarsHeader from '../../assets/our-cars-header.jpg'
 
 export default function OurCars() {
 
-
+    let { pathname } = useLocation()
     const [ourCars, setOurCars] = useState(dataCars)
     const [term, setTerm] = useState('')
     const [newFilter, setNewFilter] = useState('')
@@ -25,6 +25,10 @@ export default function OurCars() {
             setOurCars(newFilter)
         }
     }, [term])
+
+    useEffect(() => {
+        window.scroll(0, 0)
+    }, [pathname])
 
     return (
         <section className='pb-36'>
