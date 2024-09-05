@@ -77,7 +77,7 @@ export default function Navbar() {
                                 <div className='text-[#99a1b2]'>
                                     <div className="flex items-center gap-x-5 space-x-6 rtl:space-x-reverse mt-10 mr-5">
                                         <i className="fa-solid fa-phone text-[#ee4023]"></i>
-                                        <a href="tel:+966535877758" className="">+966 53 587 7758</a>
+                                        <a href="tel:+966535877758" className="">966535877758+</a>
                                     </div>
                                     <div className="flex items-center gap-x-5 space-x-6 rtl:space-x-reverse mt-5 mr-5">
                                         <i className="fa-regular fa-envelope text-[#ee4023]"></i>
