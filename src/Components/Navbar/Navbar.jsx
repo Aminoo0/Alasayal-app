@@ -51,7 +51,7 @@ export default function Navbar() {
                                 <NavLink to={'/aboutus'} className="block py-2 px-3 text-gray-900 md:hover:text-[#e64c43]">من نحن</NavLink>
                             </li>
                             <li>
-                                <a href='https://wa.me/966535877758' target='_blank' className="block py-2 px-3 text-gray-900 md:hover:text-[#e64c43]">تواصل معنا</a>
+                                <NavLink to={'/contactus'} className="block py-2 px-3 text-gray-900 md:hover:text-[#e64c43]">تواصل معنا</NavLink>
                             </li>
                         </ul>
                     </div>
@@ -72,7 +72,7 @@ export default function Navbar() {
                                     <NavLink to={'/aboutus'} className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">من نحن</NavLink>
                                 </li>
                                 <li onClick={() => setIsOpen(!isOpen)} className='border-b-2 p-4 pr-56'>
-                                    <a href='https://wa.me/966535877758' target='_blank' className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">تواصل معنا</a>
+                                    <NavLink to={'/contactus'} className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">تواصل معنا</NavLink>
                                 </li>
                                 <div className='text-[#99a1b2]'>
                                     <div className="flex items-center gap-x-5 space-x-6 rtl:space-x-reverse mt-10 mr-5">

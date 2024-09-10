@@ -148,7 +148,7 @@ export default function CarDetails() {
                                 />
                             </div>
                             <div className="mb-10">
-                                <input type="tel" id="inputSeven" name='phone' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder='رقم الهاتف' />
+                                <input type="tel" id="inputSeven" name='phone' className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg block w-full p-2.5" placeholder='رقم الهاتف' required />
                                 <ValidationError
                                     prefix="inputSeven"
                                     field="phone"
@@ -161,7 +161,7 @@ export default function CarDetails() {
                             <div onClick={() => setSecPageForm(!secPageForm)} className={`${secPageForm ? '' : 'hidden'} text-white bg-[#ee4023] hover:bg-[#ed4d31] font-medium rounded-lg text-lg w-1/2 px-5 py-2.5 text-center cursor-pointer`}>السابق</div>
                             <button type="submit" disabled={state.submitting} className={`${secPageForm ? '' : 'hidden'} text-white bg-sky-600 hover:bg-sky-700 font-medium rounded-lg text-lg w-1/2 px-5 py-2.5 text-center cursor-pointer`}>{state.submitting ? '...ارسال' : 'ارسال'}</button>
                         </div>
-                        <p className='w-full p-5 text-left tracking-wider text-2xl'>{state.succeeded ? 'تم الارسال بنجاح' : ''}</p>
+                        <p className='w-full p-5 text-left tracking-wider text-2xl text-emerald-400'>{state.succeeded ? 'تم الارسال بنجاح' : ''}</p>
                     </form>
                 </div>
                 <div className='w-3/5 mt-5'>
