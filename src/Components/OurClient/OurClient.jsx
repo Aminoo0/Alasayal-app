@@ -17,47 +17,47 @@ export default function OurClient() {
                 <div className='flex  justify-center gap-y-10 flex-wrap w-4/5 md:w-2/4 mx-auto'>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo1} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo1} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo2} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo2} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo3} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo3} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo4} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo4} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo5} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo5} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo6} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo6} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo7} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo7} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo8} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo8} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                     <div className='flex flex-wrap justify-center w-1/3 lg:w-1/5 p-3 '>
                         <div className='flex gap-y-5 flex-wrap flex-col justify-center items-center hover:scale-110 duration-300'>
-                            <img loading="lazy" decoding="async" width={130} height={130} src={logo9} classname="attachment-full size-full wp-image-23813" alt />
+                            <img loading="lazy" decoding="async" width={130} height={130} src={logo9} className="attachment-full size-full wp-image-23813" alt='' />
                         </div>
                     </div>
                 </div>
