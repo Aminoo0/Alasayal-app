@@ -214,7 +214,7 @@ import carVedio27 from '../../assets/car27.mp4'
 
 export let dataCars = [
     {
-        id: 0, mainImage: car1, content: 'Mercedes mcv 260 23-30 Passenger Mini-Bus', title: 'Contact for a price', sliderimg: {
+        id: 0, category: 'minibus', mainImage: car1, content: 'Mercedes mcv 260 23-30 Passenger Mini-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car1One,
             imgTwo: car1Two,
             imgThree: car1Three,
@@ -223,7 +223,7 @@ export let dataCars = [
         video: carVedio1,
     },
     {
-        id: 1, mainImage: car2, content: 'Mercedes Sprinter 15 Passenger- Van 2023', title: 'Contact for a price', sliderimg: {
+        id: 1, category: 'van', mainImage: car2, content: 'Mercedes Sprinter 15 Passenger- Van 2023', title: 'Contact for a price', sliderimg: {
             imgOne: car2One,
             imgTwo: car2Two,
             imgThree: car2Three,
@@ -235,7 +235,7 @@ export let dataCars = [
         video: carVedio2,
     },
     {
-        id: 2, mainImage: car3, content: 'Ford Taurus 2024-Car', title: 'Contact for a price', sliderimg: {
+        id: 2, category: 'car', mainImage: car3, content: 'Ford Taurus 2024-Car', title: 'Contact for a price', sliderimg: {
             imgOne: car3One,
             imgTwo: car3Two,
             imgThree: car3Three,
@@ -246,7 +246,7 @@ export let dataCars = [
         video: carVedio3,
     },
     {
-        id: 3, mainImage: car4, content: 'BMW 740i-2023 Car', title: 'Contact for a price', sliderimg: {
+        id: 3, category: 'car', mainImage: car4, content: 'BMW 740i-2023 Car', title: 'Contact for a price', sliderimg: {
             imgOne: car4One,
             imgTwo: car4Two,
             imgThree: car4Three,
@@ -261,7 +261,7 @@ export let dataCars = [
         video: carVedio4,
     },
     {
-        id: 4, mainImage: car5, content: 'GMC Yukon 2024-Car', title: 'Contact for a price', sliderimg: {
+        id: 4, category: 'car', mainImage: car5, content: 'GMC Yukon 2024-Car', title: 'Contact for a price', sliderimg: {
             imgOne: car5One,
             imgTwo: car5Two,
             imgThree: car5Three,
@@ -272,7 +272,7 @@ export let dataCars = [
         video: carVedio56,
     },
     {
-        id: 5, mainImage: car6, content: 'GMC Yukon 2023-Car', title: 'Contact for a price', sliderimg: {
+        id: 5, category: 'car', mainImage: car6, content: 'GMC Yukon 2023-Car', title: 'Contact for a price', sliderimg: {
             imgOne: car6One,
             imgTwo: car6Two,
             imgThree: car6Three,
@@ -285,7 +285,7 @@ export let dataCars = [
         video: carVedio56,
     },
     {
-        id: 6, mainImage: car7, content: 'Mercedes Benz Vip-Black Queen-Bus', title: 'Contact for a price', sliderimg: {
+        id: 6, category: 'bus', mainImage: car7, content: 'Mercedes Benz Vip-Black Queen-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car7One,
             imgTwo: car7Two,
             imgThree: car7Three,
@@ -297,7 +297,7 @@ export let dataCars = [
         video: carVedio7,
     },
     {
-        id: 7, mainImage: car8, content: 'Mercedes Bedroom And Sofa Set - Bus', title: 'Contact for a price', sliderimg: {
+        id: 7, category: 'bus', mainImage: car8, content: 'Mercedes Bedroom And Sofa Set - Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car8One,
             imgTwo: car8Two,
             imgThree: car8Three,
@@ -310,7 +310,7 @@ export let dataCars = [
         video: carVedio8,
     },
     {
-        id: 8, mainImage: car9, content: 'Mercedas Benz Vip-Couch- Bus', title: 'Contact for a price', sliderimg: {
+        id: 8, category: 'bus', mainImage: car9, content: 'Mercedas Benz Vip-Couch- Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car9One,
             imgTwo: car9Two,
             imgThree: car9Three,
@@ -327,7 +327,7 @@ export let dataCars = [
         video: '',
     },
     {
-        id: 9, mainImage: car10, content: 'Mercedes Benz Vip-Brown-Bus', title: 'Contact for a price', sliderimg: {
+        id: 9, category: 'bus', mainImage: car10, content: 'Mercedes Benz Vip-Brown-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car10One,
             imgTwo: car10Two,
             imgThree: car10Three,
@@ -338,7 +338,7 @@ export let dataCars = [
         video: carVedio10,
     },
     {
-        id: 10, mainImage: car11, content: 'Mercedes Face-to-Face Seating-Bus', title: 'Contact for a price', sliderimg: {
+        id: 10, category: 'bus', mainImage: car11, content: 'Mercedes Face-to-Face Seating-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car11One,
             imgTwo: car11Two,
             imgThree: car11Three,
@@ -353,7 +353,7 @@ export let dataCars = [
         video: carVedio11,
     },
     {
-        id: 11, mainImage: car12, content: 'Mercedes Face-to-Face Seating -Vip Bus', title: 'Contact for a price', sliderimg: {
+        id: 11, category: 'bus', mainImage: car12, content: 'Mercedes Face-to-Face Seating -Vip Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car12One,
             imgTwo: car12Two,
             imgThree: car12Three,
@@ -363,7 +363,7 @@ export let dataCars = [
         video: carVedio12,
     },
     {
-        id: 12, mainImage: car13, content: 'Mercedes Benz Vip Arabic Sitting-Grebe Bus', title: 'Contact for a price', sliderimg: {
+        id: 12, category: 'bus', mainImage: car13, content: 'Mercedes Benz Vip Arabic Sitting-Grebe Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car13One,
             imgTwo: car13Two,
             imgThree: car13Three,
@@ -372,7 +372,7 @@ export let dataCars = [
         video: carVedio13,
     },
     {
-        id: 13, mainImage: car14, content: 'Mercedes Benz Vip Arabic Sitting-Bus', title: 'Contact for a price', sliderimg: {
+        id: 13, category: 'bus', mainImage: car14, content: 'Mercedes Benz Vip Arabic Sitting-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car14One,
             imgTwo: car14Two,
             imgThree: car14Three,
@@ -384,7 +384,7 @@ export let dataCars = [
         video: carVedio14,
     },
     {
-        id: 14, mainImage: car15, content: 'Mercedes Benz 40 Passenger-Bus', title: 'Contact for a price', sliderimg: {
+        id: 14, category: 'bus', mainImage: car15, content: 'Mercedes Benz 40 Passenger-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car15One,
             imgTwo: car15Two,
             imgThree: car15Three,
@@ -392,7 +392,7 @@ export let dataCars = [
         video: '',
     },
     {
-        id: 15, mainImage: car16, content: 'Mercedes Benz 50 Passenger-Bus', title: 'Contact for a price', sliderimg: {
+        id: 15, category: 'bus', mainImage: car16, content: 'Mercedes Benz 50 Passenger-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car16One,
             imgTwo: car16Two,
             imgThree: car16Three,
@@ -401,7 +401,7 @@ export let dataCars = [
         video: carVedio16,
     },
     {
-        id: 16, mainImage: car17, content: 'Mercedes Benz S 450-2023', title: 'Contact for a price', sliderimg: {
+        id: 16, category: 'car', mainImage: car17, content: 'Mercedes Benz S 450-2023', title: 'Contact for a price', sliderimg: {
             imgOne: car17One,
             imgTwo: car17Two,
             imgThree: car17Three,
@@ -411,7 +411,7 @@ export let dataCars = [
         video: carVedio17,
     },
     {
-        id: 17, mainImage: car18, content: 'Toyota Hiace 2023 Mini-Bus', title: 'Contact for a price', sliderimg: {
+        id: 17, category: 'minibus', mainImage: car18, content: 'Toyota Hiace 2023 Mini-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car18One,
             imgTwo: car18Two,
             imgThree: car18Three,
@@ -421,7 +421,7 @@ export let dataCars = [
         video: '',
     },
     {
-        id: 18, mainImage: car19, content: 'Mercedes S500-2023-Car', title: 'Contact for a price', sliderimg: {
+        id: 18, category: 'car', mainImage: car19, content: 'Mercedes S500-2023-Car', title: 'Contact for a price', sliderimg: {
             imgOne: car19One,
             imgTwo: car19Two,
             imgThree: car19Three,
@@ -431,7 +431,7 @@ export let dataCars = [
         video: carVedio19,
     },
     {
-        id: 19, mainImage: car20, content: 'Toyota Coster Mini-Bus', title: 'Contact for a price', sliderimg: {
+        id: 19, category: 'minibus', mainImage: car20, content: 'Toyota Coster Mini-Bus', title: 'Contact for a price', sliderimg: {
             imgOne: car20One,
             imgTwo: car20Two,
             imgThree: car20Three,
@@ -439,7 +439,7 @@ export let dataCars = [
         video: '',
     },
     {
-        id: 20, mainImage: car21, content: 'Mercedes Vito-V Class - Van 6 Passenger', title: 'Contact for a price', sliderimg: {
+        id: 20, category: 'van', mainImage: car21, content: 'Mercedes Vito-V Class - Van 6 Passenger', title: 'Contact for a price', sliderimg: {
             imgOne: car21One,
             imgTwo: car21Two,
             imgThree: car21Three,
@@ -450,7 +450,7 @@ export let dataCars = [
         video: carVedio21,
     },
     {
-        id: 21, mainImage: car22, content: 'Mercedes Sprinter V-VIP 7 Passenger- Van', title: 'Contact for a price', sliderimg: {
+        id: 21, category: 'van', mainImage: car22, content: 'Mercedes Sprinter V-VIP 7 Passenger- Van', title: 'Contact for a price', sliderimg: {
             imgOne: car22One,
             imgTwo: car22Two,
             imgThree: car22Three,
@@ -460,14 +460,14 @@ export let dataCars = [
         video: carVedio22,
     },
     {
-        id: 22, mainImage: car23, content: 'Mercedes-Sprinter Vip-14 Passenger-Van', title: 'Contact for a price', sliderimg: {
+        id: 22, category: 'van', mainImage: car23, content: 'Mercedes-Sprinter Vip-14 Passenger-Van', title: 'Contact for a price', sliderimg: {
             imgOne: car23One,
             imgTwo: car23Two,
         },
         video: carVedio23,
     },
     {
-        id: 23, mainImage: car24, content: 'Mercedes Sprinter-18 passenger-van', title: 'Contact for a price', sliderimg: {
+        id: 23, category: 'van', mainImage: car24, content: 'Mercedes Sprinter-18 passenger-van', title: 'Contact for a price', sliderimg: {
             imgOne: car24One,
             imgTwo: car24Two,
             imgThree: car24Three,
@@ -477,7 +477,7 @@ export let dataCars = [
         video: carVedio24,
     },
     {
-        id: 24, mainImage: car25, content: 'Ford Taurus 2023-Car', title: 'Contact for a price', sliderimg: {
+        id: 24, category: 'car', mainImage: car25, content: 'Ford Taurus 2023-Car', title: 'Contact for a price', sliderimg: {
             imgOne: car25One,
             imgTwo: car25Two,
             imgThree: car25Three,
@@ -487,7 +487,7 @@ export let dataCars = [
         video: carVedio25,
     },
     {
-        id: 25, mainImage: car26, content: 'Hyundai H1- 7 passenger 2023-car', title: 'Contact for a price', sliderimg: {
+        id: 25, category: 'car', mainImage: car26, content: 'Hyundai H1- 7 passenger 2023-car', title: 'Contact for a price', sliderimg: {
             imgOne: car26One,
             imgTwo: car26Two,
             imgThree: car26Three,
@@ -500,7 +500,7 @@ export let dataCars = [
         video: carVedio26,
     },
     {
-        id: 26, mainImage: car27, content: 'Hyundai Staria 8 passenger 2024-car', title: 'Contact for a price', sliderimg: {
+        id: 26, category: 'car', mainImage: car27, content: 'Hyundai Staria 8 passenger 2024-car', title: 'Contact for a price', sliderimg: {
             imgOne: car27One,
             imgTwo: car27Two,
             imgThree: car27Three,

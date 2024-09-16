@@ -32,10 +32,10 @@ export default function Footer() {
           <ul className='flex flex-col gap-y-5'>
             <li className='text-[#e64a41]'>حافلات كبيرة</li>
             <ul className='text-white mr-5 flex flex-col gap-y-3'>
-              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>السيارات الصغيرة</li></Link>
-              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات صغيرة</li></Link>
-              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كوستر</li></Link>
-              <Link to={'/ourcars'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كبيرة</li></Link>
+              <Link to={'/ourcars/car'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>السيارات الصغيرة</li></Link>
+              <Link to={'/ourcars/van'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات صغيرة</li></Link>
+              <Link to={'/ourcars/minibus'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كوستر</li></Link>
+              <Link to={'/ourcars/bus'}><li className='hover:text-[#e64a41] hover:mr-3 cursor-pointer duration-300'> <i className="fa-solid fa-caret-left ml-3 text-[#e64a41]"></i>حافلات كبيرة</li></Link>
             </ul>
           </ul>
         </div>
