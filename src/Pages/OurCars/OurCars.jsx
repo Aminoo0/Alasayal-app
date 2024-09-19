@@ -8,6 +8,7 @@ import car2 from '../../assets/car-two.png'
 import car3 from '../../assets/car-three.png'
 import car4 from '../../assets/car-four.png'
 import { category } from '../../Context/CategoryContext'
+import { Helmet } from 'react-helmet-async'
 
 export default function OurCars() {
 
@@ -36,7 +37,12 @@ export default function OurCars() {
         window.scroll(0, 0)
     }, [pathname])
 
-    return (
+    return (<>
+        <Helmet>
+            <meta name="description" content="سياراتنا" />
+            <title>سياراتنا</title>
+        </Helmet>
+
         <section className='pb-36'>
             <div className='w-full relative'>
                 <div className='w-full bg-slate-700 bg-opacity-50 absolute top-0 left-0 right-0 bottom-0'>
@@ -111,5 +117,5 @@ export default function OurCars() {
                 )}
             </div>
         </section>
-    )
+    </>)
 }
