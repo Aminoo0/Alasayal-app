@@ -9,6 +9,7 @@ import { dataCars } from './Components/OurCarsDetails/OurCarsDetails'
 import CategoryContextProvider from './Context/CategoryContext'
 import HeaderCaregory from './Pages/HeaderCategory/HeaderCategory'
 import { HelmetProvider } from 'react-helmet-async'
+import SitelinksSchema from './SitelinksSchema/SitelinksSchema'
 
 let App = () => {
 
@@ -30,6 +31,7 @@ let App = () => {
       <CategoryContextProvider>
         <HelmetProvider>
           <RouterProvider router={router}>
+            <SitelinksSchema />
           </RouterProvider>
         </HelmetProvider>
       </CategoryContextProvider>
