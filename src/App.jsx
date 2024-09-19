@@ -30,6 +30,7 @@ let App = () => {
     <>
       <CategoryContextProvider>
         <HelmetProvider>
+          <SitelinksSchema />
           <RouterProvider router={router}>
             <SitelinksSchema />
           </RouterProvider>

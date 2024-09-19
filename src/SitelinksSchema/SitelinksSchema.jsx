@@ -5,13 +5,22 @@ import { Helmet } from 'react-helmet-async';
 const SitelinksSchema = () => {
   const schemaData = {
     "@context": "https://schema.org",
-    "@type": "WebSite",
-    "url": "https://alasayeltours.com/",  // Change this to your website URL
-    "potentialAction": {
-      "@type": "SearchAction",
-      "target": "https://alasayeltours.com/#/{search_term_string}",  // Change this to your search query URL
-      "query-input": "required name=search_term_string"
-    }
+    "@type": "FAQPage",
+    "mainEntity": [{
+      "@type": "Question",
+      "name": "ما هيا اسرع العربات",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Ford Taurus 2024-Car"
+      }
+    }, {
+      "@type": "Question",
+      "name": "ما هيا اكبر الشاحنات",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mercedes Bedroom And Sofa Set - Bus"
+      }
+    }]
   };
 
   return (
