@@ -28,12 +28,12 @@ export default function Navbar() {
 
 
             <nav className="bg-white">
-                <div className="max-w-screen-xl flex flex-wrap items-center justify-end gap-10 lg:gap-0 lg:justify-between mx-auto p-2">
+                <div className="max-w-screen-xl flex flex-wrap items-center justify-between gap-10 lg:gap-0 lg:justify-between mx-auto p-2">
                     <Link to={'/'} className="flex items-center space-x-3 rtl:space-x-reverse">
                         <img src={navLogo} className="w-52" alt="Al-Asayle Logo" />
                     </Link>
                     <div className="flex gap-5 items-center md:order-2">
-                        <Link to={'https://en.alasayeltours.com/'} target='_blank' className='hidden md:block p-3 px-7 font-bold bg-[#e64c43] rounded-lg text-white order-1'>English</Link>
+                        <Link to={'https://en.alasayeltours.com/'} className='hidden lg:block p-3 px-7 font-bold bg-[#e64c43] rounded-lg text-white order-1'>English</Link>
                         <button onClick={() => setIsOpen(!isOpen)} type="button" className="lg:hidden inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200">
                             <span className="sr-only">Open main menu</span>
                             <i className="fa-solid fa-bars text-2xl text-[#e64c43]"></i>
@@ -75,7 +75,7 @@ export default function Navbar() {
                                     <NavLink to={'/contactus'} className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">تواصل معنا</NavLink>
                                 </li>
                                 <li onClick={() => setIsOpen(!isOpen)} className='border-b-2 p-4 pr-56'>
-                                    <Link to={'https://en.alasayeltours.com/'} target='_blank' className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">English</Link>
+                                    <Link to={'https://en.alasayeltours.com/'} className="block py-2 px-3 md:hover:text-[#e64c43] hover:scale-110 duration-300">English</Link>
                                 </li>
                                 <div className='text-[#99a1b2]'>
                                     <div className="flex items-center gap-x-5 space-x-6 rtl:space-x-reverse mt-10 mr-5">

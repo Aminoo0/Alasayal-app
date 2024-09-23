@@ -103,7 +103,7 @@ export default function OurCars() {
             <div className='flex flex-wrap gap-y-7 p-5'>
                 {ourCars?.map((car, index) =>
                     <motion.div whileHover={{ scale: 1.03 }} initial={{ opacity: .5, scale: .9 }} whileInView={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }} key={index} className='w-full lg:w-1/4 p-3'>
-                        <Link to={`/ourcars/${car.id}/${car.content}`} target='_blank'><div className='flex flex-col justify-center border rounded-xl hover:border-[#ee4023] cursor-pointer'>
+                        <Link to={`/${car.id}/${car.content}`} target='_blank'><div className='flex flex-col justify-center border rounded-xl hover:border-[#ee4023] cursor-pointer'>
                             <div className='overflow-hidden rounded-t-xl'>
                                 <img className='w-full rounded-t-xl hover:scale-110 duration-700' src={car.mainImage} alt="" />
                             </div>

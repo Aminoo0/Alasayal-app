@@ -57,7 +57,7 @@ export default function Footer() {
         </div>
         {/* <p className='lg:hidden text-center w-full text-[#e64a41] cursor-pointer my-10 text-2xl hover:text-[#842722] duration-300'>Engilsh</p> */}
       </div>
-      <p className='text-center mt-8 text-white'>Copyright © 2023 . All Rights Reserved To <span className='text-[#e64a41] cursor-pointer'>Alasayel</span></p>
+      <p className='text-center mt-8 text-white w-11/12 mx-auto'>Copyright © 2024. All Rights Reserved to <Link to={'https://alasayeltours.com/'} className='text-[#e64a41] cursor-pointer'> Alasayel .</Link> Created by <Link to={'https://on-dm.com/'} target='_blank' className='text-[#e64a41] cursor-pointer'>ON DM.</Link></p>
     </footer>
   </>)
 }
